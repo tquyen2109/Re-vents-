@@ -12,7 +12,7 @@ export default function EventDashboard ({formOpen, setFormOpen}) {
                 <EventList events={sampleData} />
             </Grid.Column>
             <Grid.Column width={6}>
-                  {/* only display if formOpen =true */}
+                {/* only display if formOpen =true */}
                 {formOpen && <EventForm setFormOpen={setFormOpen}/> }
             </Grid.Column>
         </Grid>
